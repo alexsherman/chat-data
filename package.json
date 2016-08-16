@@ -1,0 +1,12 @@
+{
+  "name": "chat-data",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "~0.2.0",
+    "request": "~2.74.0",
+    "irc": "~0.5.0"
+  }
+}

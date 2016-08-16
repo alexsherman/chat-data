@@ -1,0 +1,49 @@
+html {
+  padding: 0px;
+  background-color: #f2f2f2;
+}
+
+#circle-svg {
+  float: left;
+}
+
+.bar {
+  background-color: green;
+  position: absolute;
+  z-index: 100;
+  border-radius: 4px;
+}
+
+#labels {
+  width: 900px;
+  height: 30px;
+  float: left;
+  color: white;
+  background-color: green;
+}
+
+#stream {
+  float: right;
+}
+
+#chat {
+  float: right;
+}
+
+#chatlog {
+  width: 300px;
+  height: 300px;
+  background-color: gray;
+  overflow-y: auto;
+  overflow-x: hidden;
+  float: left;
+}
+
+#hotlog {
+  width: 600px;
+  height: 250px;
+  text-align: center;
+  border: 1px solid lightgreen;
+  overflow-y: auto;
+  float: right;
+}

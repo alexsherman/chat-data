@@ -1,0 +1,35 @@
+<body>
+  <div id="chat">
+    <iframe frameborder="0"
+            scrolling="no"
+            id="chat_embed"
+            src="http://www.twitch.tv/dota2ti/chat"
+            height="670"
+            width="370">
+    </iframe>
+  </div>
+  <div id="stream">
+  <iframe
+        src="http://player.twitch.tv/?channel=dota2ti"
+        height="360"
+        width="640"
+        frameborder="0"
+        scrolling="no"
+        allowfullscreen="true">
+    </iframe>
+  </div>
+  {{> vis}}
+  {{> hotlog}}
+</body>
+
+<template name="hotlog">
+  <div id="hotlog">
+    {{#each hot}}
+    <p>{{text}} ({{number}} instances of this meme)</p>
+   {{/each}}
+  </div>
+</template>
+
+<template name="vis">
+  <div id="circles"></div>
+</template>
